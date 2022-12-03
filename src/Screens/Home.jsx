@@ -49,9 +49,9 @@ function Home() {
           iteration="1"
           fillMode="none">
             <p>
-              <a href="https://www.linkedin.com/in/lauren-powers20/" target="_blank" className="home-page-icons">
+              <a href="https://www.linkedin.com/in/lauren-powers20/" target="_blank" className="home-page-icons" rel="noreferrer">
              <FaLinkedin alt="linkedin" /></a>
-              <a href="https://github.com/laurenpowers20" alt="github"className="home-page-icons"><FaGithub alt="github" /></a>
+              <a href="https://github.com/laurenpowers20" alt="github"className="home-page-icons" rel="noreferrer"><FaGithub alt="github" /></a>
               {/* <a href="" className="home-page-icons"> */}
               <FaFileAlt alt="resume" />
             {/* </a> */}
