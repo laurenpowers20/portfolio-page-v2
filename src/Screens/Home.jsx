@@ -49,10 +49,10 @@ function Home() {
           iteration="1"
           fillMode="none">
             <p>
-              <a href="https://www.linkedin.com/in/lauren-powers20/" target="_blank">
+              <a href="https://www.linkedin.com/in/lauren-powers20/" target="_blank" className="home-page-icons">
              <FaLinkedin alt="linkedin" /></a>
-              <a href="https://github.com/laurenpowers20" alt="github"><FaGithub alt="github" /></a>
-              <a href=""><FaFileAlt alt="resume" /></a>
+              <a href="https://github.com/laurenpowers20" alt="github"className="home-page-icons"><FaGithub alt="github" /></a>
+              <a href=""className="home-page-icons"><FaFileAlt alt="resume" /></a>
             </p>
           </MovingComponent>
         </div>

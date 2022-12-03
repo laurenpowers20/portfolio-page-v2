@@ -15,6 +15,15 @@ body {
   height: 150px;
 }
 
+.home-page-icons{
+  margin: 10px;
+  color: cyan;
+  text-decoration: none;
+}
+.home-page-icons:hover {
+  color: magenta;
+}
+
 .lightning {
   height: 90px;
 }
@@ -49,6 +58,23 @@ body {
 .about-branding-statement{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) { 
+
+  .im-lauren{
+    font-size: 70px;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .software-enigneer-title {
+    font-size: 50px;
+    margin-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 

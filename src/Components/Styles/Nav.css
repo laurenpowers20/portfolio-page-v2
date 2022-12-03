@@ -9,7 +9,7 @@ font-family: 'Londrina Solid', cursive; */
 }
 
 .nav {
-  font-family: 'Londrina Outline', cursive;
+  font-family: 'Londrina Solid', cursive;
   font-size: 40px;
   display: flex;
   flex-wrap: wrap;
