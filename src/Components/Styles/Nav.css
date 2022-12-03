@@ -12,6 +12,29 @@ font-family: 'Londrina Solid', cursive; */
   display: none;
 }
 
+.nav-desktop {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.navlink {
+  margin: 10px;
+  color: cyan;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  color: magenta;
+}
+
+.navlink.active{
+  color: magenta;
+}
+
 .bm-burger-button {
   position: fixed;
   width: 36px;
@@ -66,27 +89,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgba(0, 0, 0, 0.3);
 }
 
-.nav-desktop {
-  font-family: 'Londrina Solid', cursive;
-  font-size: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
 
-.navlink {
-  margin: 10px;
-  color: cyan;
-  text-decoration: none;
-}
-
-.navlink:hover {
-  color: magenta;
-}
-
-.navlink.active{
-  color: magenta;
-}
 
 @media only screen and (max-width: 600px) { 
 
