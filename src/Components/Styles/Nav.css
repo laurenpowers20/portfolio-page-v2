@@ -8,6 +8,10 @@ font-family: 'Londrina Solid', cursive; */
   background-color: black; 
 }
 
+.nav-mobile{
+  display: none;
+}
+
 .bm-burger-button {
   position: fixed;
   width: 36px;
@@ -44,18 +48,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  background: black;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
   fill: #373a47;
-}
-
-/* Wrapper for item list */
-.bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
 }
 
 /* Individual item */
@@ -68,7 +66,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgba(0, 0, 0, 0.3);
 }
 
-.nav {
+.nav-desktop {
   font-family: 'Londrina Solid', cursive;
   font-size: 40px;
   display: flex;
@@ -78,7 +76,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .navlink {
   margin: 10px;
-  color: #ffff00;
+  color: cyan;
   text-decoration: none;
 }
 
@@ -88,4 +86,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .navlink.active{
   color: magenta;
+}
+
+@media only screen and (max-width: 600px) { 
+
+.nav-mobile{
+  display: block;
+  font-size: 40px;
+}
+
+.nav-desktop{
+  display: none;
+}
+
 }
