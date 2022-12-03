@@ -23,15 +23,11 @@ font-family: 'Londrina Solid', cursive; */
 
 .navlink {
   margin: 10px;
-  color: cyan;
+  color: yellow;
   text-decoration: none;
 }
 
 .navlink:hover {
-  color: magenta;
-}
-
-.navlink.active{
   color: magenta;
 }
 

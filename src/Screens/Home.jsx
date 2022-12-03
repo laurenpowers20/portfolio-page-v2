@@ -20,12 +20,12 @@ function Home() {
   fillMode="none">
  <p> Hi, I'm Lauren Powers! <img className="lightning" src={lightning} alt="logo" /></p>
           </MovingComponent>
-        </div>
+      </div>
         
-
       <div className="software-enigneer-title">    
         <MovingComponent
-           type="squeezeMix"
+          // type="squeezeMix"
+          type="popIn"
           duration="1000ms"
           delay="0s"
           direction="normal"
@@ -40,7 +40,6 @@ function Home() {
     
     <div className="im-lauren">
     <MovingComponent
-         
           type="fadeInFromRight"
           duration="2000ms"
           delay="0s"
@@ -51,7 +50,7 @@ function Home() {
             <p>
               <a href="https://www.linkedin.com/in/lauren-powers20/" target="_blank" className="home-page-icons" rel="noreferrer">
              <FaLinkedin alt="linkedin" /></a>
-              <a href="https://github.com/laurenpowers20" alt="github"className="home-page-icons" rel="noreferrer"><FaGithub alt="github" /></a>
+              <a href="https://github.com/laurenpowers20" target="_blank" alt="github"className="home-page-icons" rel="noreferrer"><FaGithub alt="github" /></a>
               {/* <a href="" className="home-page-icons"> */}
               <FaFileAlt alt="resume" />
             {/* </a> */}

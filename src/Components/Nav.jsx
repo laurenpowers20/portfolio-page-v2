@@ -2,12 +2,7 @@ import "./Styles/Nav.css"
 import { stack as Menu } from 'react-burger-menu'
 import { NavLink } from "react-router-dom"
 
-
-
-
-
 function Nav() {
-
   return (
     <div className="nav-bar-component">
       <div className="nav-desktop">
