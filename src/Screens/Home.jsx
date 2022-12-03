@@ -1,7 +1,9 @@
 import "../App.css"
 import lightning from "../images/lightning(1).png"
-import headshot from "../images/headshot.jpeg"
 import MovingComponent from 'react-moving-text'
+import { FaLinkedin } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
+import { FaFileAlt } from "react-icons/fa"
 
 function Home() {
   return (
@@ -16,7 +18,7 @@ function Home() {
   timing="ease"
   iteration="1"
   fillMode="none">
- <h1> Hi, I'm Lauren! <img className="lightning" src={lightning} alt="logo" /></h1>
+ <p> Hi, I'm Lauren Powers! <img className="lightning" src={lightning} alt="logo" /></p>
           </MovingComponent>
         </div>
         
@@ -30,7 +32,7 @@ function Home() {
           timing="ease"
           iteration="1"
           fillMode="none">
-            <div className="front-page-heading"><h2> I'm a Software Engineer</h2>
+            <div className="front-page-heading"><p> I'm a Software Engineer</p>
             </div>
           </MovingComponent>
           </div>
@@ -40,13 +42,18 @@ function Home() {
     <MovingComponent
          
           type="fadeInFromRight"
-  duration="2000ms"
-  delay="0s"
-  direction="normal"
-  timing="ease"
-  iteration="1"
-  fillMode="none">
-   <img className="headshot" src={headshot} alt="Lauren Powers Headshot"/>
+          duration="2000ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none">
+            <p>
+              <a href="https://www.linkedin.com/in/lauren-powers20/" target="_blank">
+             <FaLinkedin alt="linkedin" /></a>
+              <a href="https://github.com/laurenpowers20" alt="github"><FaGithub alt="github" /></a>
+              <a href=""><FaFileAlt alt="resume" /></a>
+            </p>
           </MovingComponent>
         </div>
         </div>
