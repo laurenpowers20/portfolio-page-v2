@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&display=swap');
+/* font-family: 'Londrina Outline', cursive;
+font-family: 'Londrina Shadow', cursive;
+font-family: 'Londrina Solid', cursive; */
+
+.nav-bar-component{
+  width: 100%;
+  background-color: black; 
+}
+
+.nav {
+  font-family: 'Londrina Outline', cursive;
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.navlink {
+  margin: 10px;
+  color: #ffff00;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  color: magenta;
+}
+
+.navlink.active{
+  color: magenta;
+}
