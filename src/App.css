@@ -21,19 +21,21 @@ body {
   color: cyan;
   text-decoration: none;
 }
+
 .home-page-icons:hover {
   color: magenta;
 }
 
 .lightning {
-  height: 90px;
+  height: 70px;
+  padding: 2px;
 }
 
 .home-page{
-  /* display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
-  text-align: center; */
+  text-align: center; 
   height: 100vh;
 }
 

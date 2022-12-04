@@ -11,13 +11,13 @@ function Home() {
 <div className="home-page"> 
     <div className="im-lauren">
     <MovingComponent
-  type="fadeInFromLeft"
-  duration="2000ms"
-  delay="0s"
-  direction="normal"
-  timing="ease"
-  iteration="1"
-  fillMode="none">
+      type="fadeInFromLeft"
+      duration="2000ms"
+      delay="0s"
+      direction="normal"
+      timing="ease"
+      iteration="1"
+      fillMode="none">
  <p> Hi, I'm Lauren Powers! <img className="lightning" src={lightning} alt="logo" /></p>
           </MovingComponent>
       </div>
@@ -32,8 +32,8 @@ function Home() {
           timing="ease"
           iteration="1"
           fillMode="none">
-            <div className="front-page-heading"><p> I'm a Software Engineer</p>
-            </div>
+          <div className="front-page-heading"><p>I'm a Software Engineer</p>
+          </div>
           </MovingComponent>
           </div>
 

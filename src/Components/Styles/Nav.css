@@ -22,8 +22,9 @@ font-family: 'Londrina Solid', cursive; */
 }
 
 .navlink {
-  margin: 10px;
-  color: yellow;
+  margin: 5px;
+  padding: 5px;
+  color: cyan;
   text-decoration: none;
 }
 
@@ -33,10 +34,10 @@ font-family: 'Londrina Solid', cursive; */
 
 .bm-burger-button {
   position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 36px;
-  top: 36px;
+  width: 25px;
+  height: 25px;
+  left: 25px;
+  top: 25px;
 }
 
 .bm-burger-bars {
@@ -54,7 +55,7 @@ font-family: 'Londrina Solid', cursive; */
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: gray;
 }
 
 /*Sidebar wrapper styles
@@ -65,14 +66,23 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 100%;
 }
 
+
+
 /* General sidebar styles */
 .bm-menu {
   background: black;
+  width: 300px;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
   fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  
 }
 
 /* Individual item */
