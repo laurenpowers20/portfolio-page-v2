@@ -8,7 +8,9 @@ import { FaFileAlt } from "react-icons/fa"
 function Home() {
   return (
     <>
-<div className="home-page"> 
+      <div className="home-page"> 
+        
+        
     <div className="im-lauren">
     <MovingComponent
       type="fadeInFromLeft"
