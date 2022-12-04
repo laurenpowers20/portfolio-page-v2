@@ -10,6 +10,16 @@ body {
   font-family: 'Londrina Shadow', cursive;
 }
 
+.about-me-icons{
+  color: cyan;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.about-me-icons:hover {
+  color: magenta;
+}
+
 .headshot{
   border-radius: 50%;
   height: 180px;
@@ -20,6 +30,10 @@ body {
   margin: 10px;
   color: cyan;
   text-decoration: none;
+}
+.home-project-link{
+  font-size: 40px;
+  align-items: center;
 }
 
 .home-page-icons:hover {
@@ -39,9 +53,15 @@ body {
   height: 100vh;
 }
 
+.home-explore-work{
+padding: 0;
+margin: 0;
+}
+
 .im-lauren{
   font-size: 100px;
   margin-bottom: 0;
+  padding-bottom: 0;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -49,6 +69,7 @@ body {
 .software-enigneer-title {
   font-size: 80px;
   margin-top: 0;
+  padding-top: 0;
   padding-left: 5px;
   padding-right: 5px;
 }
