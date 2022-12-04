@@ -10,10 +10,16 @@ body {
   font-family: 'Londrina Shadow', cursive;
 }
 
+.about-icons{
+  display: inline-flex;
+}
+
 .about-me-icons{
   color: cyan;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 50px;
+  padding-bottom: 50px;
+  display: inline-flex;
 }
 
 .about-me-icons:hover {
@@ -26,14 +32,15 @@ body {
   padding: 50px;
 }
 
+.home-project-link{
+  font-size: 40px;
+  align-items: center;
+}
+
 .home-page-icons{
   margin: 10px;
   color: cyan;
   text-decoration: none;
-}
-.home-project-link{
-  font-size: 40px;
-  align-items: center;
 }
 
 .home-page-icons:hover {
@@ -93,7 +100,7 @@ margin: 0;
 .project-link{
  color: cyan;
  font-family: 'Londrina Solid', cursive;
-margin: 5px;
+  margin: 5px;
 }
 
 .project-link:hover{
