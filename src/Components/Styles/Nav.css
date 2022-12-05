@@ -8,9 +8,9 @@ font-family: 'Londrina Solid', cursive; */
   background-color: black; 
 }
 
-.nav-mobile{
+/* .nav-mobile{
   display: none;
-}
+} */
 
 .nav-desktop {
   font-family: 'Londrina Solid', cursive;
@@ -99,13 +99,20 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 @media only screen and (max-width: 600px) { 
 
-.nav-mobile{
+/* .nav-mobile{
   display: block;
   font-size: 40px;
+} */
+
+.navlink {
+  padding: 5px;
+  color: cyan;
+  font-size: 30px;
+  text-decoration: none;
 }
 
-.nav-desktop{
+/* .nav-desktop{
   display: none;
-}
+} */
 
 }

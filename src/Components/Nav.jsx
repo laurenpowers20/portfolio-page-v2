@@ -1,5 +1,5 @@
 import "./Styles/Nav.css"
-import { stack as Menu } from 'react-burger-menu'
+// import { stack as Menu } from 'react-burger-menu'
 import { NavLink } from "react-router-dom"
 
 function Nav() {
@@ -12,15 +12,15 @@ function Nav() {
             <NavLink className="navlink" to="/contact">Contact</NavLink>
       </div> 
 
-      <div className="nav-mobile">
+      {/* <div className="nav-mobile">
         <Menu>
             <NavLink className="navlink" to="/">Home</NavLink>
             <NavLink className="navlink" to="/about">About</NavLink>
             <NavLink className="navlink" to="/projects">Projects</NavLink>
             <NavLink className="navlink" to="/contact">Contact</NavLink>
           </Menu>
-      </div> 
-      </div>
+       </div>   */}
+       </div>
   )
 }
 
