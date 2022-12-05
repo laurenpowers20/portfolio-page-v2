@@ -17,34 +17,41 @@ a {
 a:hover{
   color: magenta;
 }
+
+.about-component{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 .about-icons{
   display: inline-flex;
 }
 
-.about-me-icons{
+.about-me-icons {
   color: cyan;
   text-decoration: none;
   font-size: 90px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   display: inline-flex;
 }
+
+
+.headshot{
+  border-radius: 50%;
+  height: 180px;
+  align-items: center;
+  text-align: center;
+}
+
 
 .about-branding-statement{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   text-align: left;
-  margin: auto;
+  align-items: center;
 }
 
-.about-me-icons:hover {
-  color: magenta;
-}
-
-.headshot{
-  border-radius: 50%;
-  height: 180px;
-  padding: 50px;
-}
 
 
 .home-project-link{
@@ -119,6 +126,11 @@ margin: 0;
     padding-right: 5px;
     padding-bottom: 0;
   }
+
+  .about-branding-statement{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
   
   .software-enigneer-title {
     font-size: 40px;
@@ -128,6 +140,15 @@ margin: 0;
     padding-right: 5px;
   }
 
+  .about-component{
+    text-align: center;
+    width: 100%; ;
+  }
+  
+  .headshot{
+    padding: 0;
+    margin: 0;
+  }
 
   .project-image {
     width: 150px;
