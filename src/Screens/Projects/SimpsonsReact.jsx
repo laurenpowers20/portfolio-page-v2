@@ -36,8 +36,16 @@ function SimpsonsReact() {
           </button>
 
           <p className="project-description-text">
-            A Simpsons Quote Generator built in React. All quotes and images
-            pulled from an API.
+            A Simpsons Quote Generator built in React.js. All quotes and images
+            pulled from{" "}
+            <a
+              href="https://thesimpsonsquoteapi.glitch.me/"
+              targert="_blank"
+              rel="noreferrer"
+            >
+              The Simpsons Quote API
+            </a>
+            .
           </p>
         </div>
       </main>
