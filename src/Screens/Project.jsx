@@ -9,8 +9,7 @@ function Projects() {
   return (
     <>
       <h1 className="page-heading">Projects</h1>
-      <h3>Click for more information.</h3>
-
+      <h2>Click for more information.</h2>
       <main className="project-section">
         <MovingComponent
           type="slideInFromLeft"
