@@ -100,6 +100,14 @@ margin: 0;
   margin-left: 10px;
 }
 
+.page-heading{
+    font-family:  'Londrina Solid', cursive;
+}
+
+.project-click-more-info {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
 
 
 @media only screen and (max-width: 600px) { 
@@ -119,6 +127,7 @@ margin: 0;
     padding-left: 5px;
     padding-right: 5px;
   }
+
 
   .project-image {
     width: 150px;
