@@ -9,7 +9,6 @@ function About() {
   return (
     <>
       <div className="about-component">
-      
         <MovingComponent
           type="popIn"
           duration="2000ms"
@@ -26,17 +25,16 @@ function About() {
           />
         </MovingComponent>
         <div className="about-component">
-
-        <div className="about-icons">
-          <MovingComponent
-            type="fadeInFromRight"
-            duration="2000ms"
-            delay="0s"
-            direction="normal"
-            timing="ease"
-            iteration="1"
-            fillMode="none"
-          >  
+          <div className="about-icons">
+            <MovingComponent
+              type="fadeInFromRight"
+              duration="2000ms"
+              delay="0s"
+              direction="normal"
+              timing="ease"
+              iteration="1"
+              fillMode="none"
+            >
               <a
                 href="https://www.linkedin.com/in/lauren-powers20/"
                 target="_blank"
@@ -44,8 +42,8 @@ function About() {
                 rel="noreferrer"
               >
                 <FaLinkedin alt="linkedin" />
-                </a>
-             
+              </a>
+
               <a
                 href="https://github.com/laurenpowers20"
                 target="_blank"
@@ -54,20 +52,17 @@ function About() {
                 rel="noreferrer"
               >
                 <FaGithub alt="github" />
-                </a>
-               
-                
-            
+              </a>
+
               <a href="" className="about-me-icons" alt="resume file">
                 <FaFileAlt alt="resume" />
-            </a>           
-          
-          </MovingComponent>
+              </a>
+            </MovingComponent>
           </div>
-          </div>
+        </div>
 
         <MovingComponent
-          type="fadeInFromLeft"
+          type="slideInFromBottom"
           duration="2000ms"
           delay="0s"
           direction="normal"

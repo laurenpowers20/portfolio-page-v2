@@ -4,18 +4,22 @@ function CountriesProject() {
   return (
     <>
       <h1>Countries of the World API</h1>
-      <a
-        href="https://github.com/laurenpowers20/jsonapi"
-        target="_blank"
-        rel="noreferrer"
-        className="project-link"
-      >
-        GitHub Repo
-      </a>
+      <button className="button1">
+        <a
+          href="https://github.com/laurenpowers20/jsonapi"
+          target="_blank"
+          rel="noreferrer"
+          className="project-link"
+        >
+          GitHub Repo
+        </a>
+      </button>
       <p className="project-description-text">
         A JSON API built with Mongoose, Express, and JavaScript.
       </p>
-      <Link to="/projects">Back to projects</Link>
+      <Link to="/projects">
+        <button className="button1">Back to Projects</button>
+      </Link>
     </>
   );
 }

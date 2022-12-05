@@ -3,7 +3,7 @@ import trivia from "../images/trivia.png";
 import simpsons from "../images/simpsons.png";
 import MovingComponent from "react-moving-text";
 import { Link } from "react-router-dom";
-import "../App.css";
+import "../Screens/Projects/Projects.css";
 
 function Projects() {
   return (
@@ -32,7 +32,7 @@ function Projects() {
           </Link>
         </MovingComponent>
         <MovingComponent
-          type="slideInFromTop"
+          type="slideInFromBottom"
           duration="1000ms"
           delay="0s"
           direction="normal"
