@@ -11,16 +11,16 @@ function Projects() {
       <h1 className="page-heading">Projects</h1>
       <h3>Click for more information.</h3>
 
-      <MovingComponent
-        type="slideInFromTop"
-        duration="1000ms"
-        delay="0s"
-        direction="normal"
-        timing="ease"
-        iteration="1"
-        fillMode="none"
-      >
-        <main className="project-section">
+      <main className="project-section">
+        <MovingComponent
+          type="slideInFromLeft"
+          duration="1000ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none"
+        >
           <Link to="/countriesAPI">
             {" "}
             <div className="projects-container">
@@ -30,13 +30,33 @@ function Projects() {
               </p>
             </div>
           </Link>
-
+        </MovingComponent>
+        <MovingComponent
+          type="slideInFromTop"
+          duration="1000ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none"
+        >
           <Link to="/gameoftrivia">
             <div className="projects-container">
               <img src={trivia} alt="trivia" className="project-image" />
               <p className="project-description-title">Game of Trivia</p>
             </div>
           </Link>
+        </MovingComponent>
+
+        <MovingComponent
+          type="slideInFromRight"
+          duration="1000ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none"
+        >
           <Link to="/simpsonsquotes">
             <div className="projects-container">
               <img src={simpsons} alt="worldmap" className="project-image" />
@@ -45,8 +65,8 @@ function Projects() {
               </p>
             </div>
           </Link>
-        </main>
-      </MovingComponent>
+        </MovingComponent>
+      </main>
     </>
   );
 }

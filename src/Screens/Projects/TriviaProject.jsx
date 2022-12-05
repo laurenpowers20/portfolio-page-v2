@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function TriviaProject() {
   return (
     <>
@@ -23,6 +25,7 @@ function TriviaProject() {
       <p className="project-description-text">
         A multiple choice game of trivia written in HTML, CSS, and JavaScript.
       </p>
+      <Link to="/projects">Back to projects</Link>
     </>
   );
 }

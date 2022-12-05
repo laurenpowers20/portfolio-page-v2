@@ -10,6 +10,13 @@ body {
   font-family: 'Londrina Shadow', cursive;
 }
 
+a {
+  color: cyan;
+  text-decoration: none;
+}
+a:hover{
+  color: magenta;
+}
 .about-icons{
   display: inline-flex;
 }
