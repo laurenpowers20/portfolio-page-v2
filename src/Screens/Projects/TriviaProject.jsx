@@ -2,16 +2,24 @@ import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { BsGlobe } from "react-icons/bs";
 import "./Projects.css";
-import trivia1 from "/Users/laurenpowers/Desktop/portfolio-page/src/images/triviascreenshot1.jpg";
-import trivia2 from "/Users/laurenpowers/Desktop/portfolio-page/src/images/triviascreenshot2.jpg";
+import trivia1 from "./project-images/triviascreenshot1.jpg";
+import trivia2 from "./project-images/triviascreenshot2.jpg";
 
 function TriviaProject() {
   return (
     <>
       <main className="project-main-div">
         <div className="project-descripton-images-container">
-          <img src={trivia1} className="project-descripton-image" />
-          <img src={trivia2} className="project-descripton-image" />
+          <img
+            src={trivia1}
+            className="project-descripton-image"
+            alt="trivia project screen shot"
+          />
+          <img
+            src={trivia2}
+            className="project-descripton-image"
+            alt="trivia project screen shot"
+          />
         </div>
         <div className="project-description">
           <h1 className="project-heading">Game of Trivia</h1>

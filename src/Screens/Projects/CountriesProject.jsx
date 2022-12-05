@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
-import countriesAPI from "/Users/laurenpowers/Desktop/portfolio-page/src/images/countriesAPI.png";
+import countriesAPI from "./project-images/countriesAPI.png"
 import "./Projects.css";
 
 function CountriesProject() {
