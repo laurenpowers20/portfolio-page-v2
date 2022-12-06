@@ -26,7 +26,7 @@ function About() {
         </MovingComponent>
       </div>
       <MovingComponent
-        type="squeezeHorizontal"
+        type="slideInFromTop"
         duration="2000ms"
         delay="0s"
         direction="normal"
