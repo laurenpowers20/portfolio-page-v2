@@ -9,7 +9,6 @@ function About() {
   return (
     <>
       <div className="about-component">
-   
         <MovingComponent
           type="popIn"
           duration="2000ms"
@@ -24,26 +23,29 @@ function About() {
             src={headshot}
             alt="Lauren Powers Head Shot"
           />
-          </MovingComponent>
-          </div>
-        <MovingComponent
-          type="slideInFromBottom"
-          duration="2000ms"
-          delay="0s"
-          direction="normal"
-          timing="ease"
-          iteration="1"
-          fillMode="none"
-        >
-          <p className="about-branding-statement">
-            I am a Software Engineer who is excited to build and create. My 12
-            years of experience in financial operations has helped me turn
-            problem solving and crisis management into an everyday practice. My
-            collaborative and determined approach enables me to see challenges
-            as opportunities to learn and grow.
-          </p>
+        </MovingComponent>
+      </div>
+      <MovingComponent
+        type="slideInFromBottom"
+        duration="2000ms"
+        delay="0s"
+        direction="normal"
+        timing="ease"
+        iteration="1"
+        fillMode="none"
+      >
+        <p className="about-branding-statement">
+          I am a Software Engineer with a passion to build and create. My 12
+          years of experience in financial operations and leadership has helped
+          me turn problem solving and crisis management into an everyday
+          practice. My collaborative and determined approach enables me to see
+          challenges as opportunities to learn and grow as an engineer. I'm
+          excited to use my skills to help make complex technical subjects
+          relatable and easy to understand for my peers and clients, and in
+          turn, create products that improve the lives of people like me.
+        </p>
       </MovingComponent>
-      
+
       <div className="about-icons">
         <MovingComponent
           type="fadeInFromRight"
