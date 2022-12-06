@@ -45,8 +45,11 @@ function SimpsonsReact() {
           </button>
 
           <p className="project-description-text">
-            A Simpsons Quote Generator built in React.js. All quotes and images
-            pulled from{" "}
+            For those of us who were raised by The Simpsons, here's a quote
+            generator to make you feel nostalgic! The user will enter sight and
+            a random Simpsons character will appear. User can click on "Get
+            Info!" to display a modal with the character name and a quote. All
+            quotes and images pulled from{" "}
             <a
               href="https://thesimpsonsquoteapi.glitch.me/"
               targert="_blank"
@@ -56,6 +59,7 @@ function SimpsonsReact() {
             </a>
             .
           </p>
+          <p className="project-description-text">Built with React.js</p>
         </div>
       </main>
       <div className="back-to-projects-button-div">

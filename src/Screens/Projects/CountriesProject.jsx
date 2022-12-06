@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
-import countriesAPI from "./project-images/countriesAPI.png"
+import countriesAPI from "./project-images/countriesAPI.png";
 import "./Projects.css";
 
 function CountriesProject() {
@@ -27,7 +27,20 @@ function CountriesProject() {
             </a>
           </button>
           <p className="project-description-text">
-            A JSON API built with Mongoose, Express, and JavaScript.
+            An API with full CRUD functionality containing select information
+            about the countries of the world. Includes:
+            <ul className="list">
+              <li>Name of country</li>
+              <li>Whether it's independent or not</li>
+              <li> Languages spoken</li>
+              <li>Whether it's landlocked or not</li>
+              <li>Images of the country's flag</li>
+              <li>Population</li>
+              <li>Continent</li>
+            </ul>
+          </p>
+          <p className="project-description-text">
+            Built with Mongoose, Express, and JavaScript.
           </p>
         </div>
       </main>

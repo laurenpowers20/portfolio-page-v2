@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&family=Poppins&display=swap');
 /* font-family: 'Londrina Outline', cursive;
 font-family: 'Londrina Shadow', cursive;
-font-family: 'Londrina Solid', cursive; */
+font-family: 'Londrina Solid', cursive;
+font-family: 'Poppins', sans-serif; */
 
 body {
   background-color: #000000;
@@ -27,13 +28,14 @@ a:hover{
 .about-icons{
   display: inline-flex;
 }
+.about-icons-container{
+  display: flex;
+  justify-content: center;
+}
 
 .about-me-icons {
-  color: cyan;
-  text-decoration: none;
   font-size: 90px;
-  padding-bottom: 40px;
-  display: inline-flex;
+  margin: 10px;
 }
 
 
@@ -44,14 +46,18 @@ a:hover{
   text-align: center;
 }
 
-
-.about-branding-statement{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  text-align: left;
-  align-items: center;
+.about-branding-statement-container{
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
+.about-branding-statement{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: left; 
+  margin: 10px;
+  justify-content: center;
+}
 
 
 .home-project-link{
@@ -132,10 +138,24 @@ margin: 0;
     padding-right: 5px;
     padding-bottom: 0;
   }
-
+  .about-component{
+    text-align: center;
+    width: 100%; ;
+  }
+  
   .about-branding-statement{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
+  }
+
+  .about-branding-statement-container{
+    width: 100%;
+    margin-left: 1px;
+    padding-right: 2px;
+    margin-right: 1px;
+  }
+
+  .about-icons{
+    font-size: 15px;
   }
   
   .software-enigneer-title {
@@ -146,11 +166,7 @@ margin: 0;
     padding-right: 5px;
   }
 
-  .about-component{
-    text-align: center;
-    width: 100%; ;
-  }
-  
+ 
   .headshot{
     padding: 0;
     margin: 0;

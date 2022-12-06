@@ -23,10 +23,6 @@ function TriviaProject() {
         </div>
         <div className="project-description">
           <h1 className="project-heading">Game of Trivia</h1>
-          <p className="project-description-text">
-            A multiple choice game of trivia written in HTML, CSS, and
-            JavaScript.
-          </p>
           <button className="button1">
             <a
               href="https://github.com/laurenpowers20/trivia"
@@ -48,6 +44,13 @@ function TriviaProject() {
               Live Site <BsGlobe />
             </a>
           </button>
+          <p className="project-description-text">
+            A multiple choice game of trivia. The user will select an answer out
+            of four choices. There are 10 questions, each are worth 10 points.
+          </p>
+          <p className="project-description-text">
+            Written in HTML, CSS, and JavaScript.
+          </p>
         </div>
       </main>
       <div className="back-to-projects-button-div">

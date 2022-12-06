@@ -26,7 +26,7 @@ function About() {
         </MovingComponent>
       </div>
       <MovingComponent
-        type="slideInFromBottom"
+        type="squeezeHorizontal"
         duration="2000ms"
         delay="0s"
         direction="normal"
@@ -34,51 +34,57 @@ function About() {
         iteration="1"
         fillMode="none"
       >
-        <p className="about-branding-statement">
-          I am a Software Engineer with a passion to build and create. My 12
-          years of experience in financial operations and leadership has helped
-          me turn problem solving and crisis management into an everyday
-          practice. My collaborative and determined approach enables me to see
-          challenges as opportunities to learn and grow as an engineer. I'm
-          excited to use my skills to help make complex technical subjects
-          relatable and easy to understand for my peers and clients, and in
-          turn, create products that improve the lives of people like me.
-        </p>
+        <div className="about-branding-statement-container">
+          <p className="about-branding-statement">
+            I am a Software Engineer with a passion to build and create. My 12
+            years of experience in financial operations and leadership has
+            helped me turn problem solving and crisis management into an
+            everyday practice. My collaborative and determined approach enables
+            me to see challenges as opportunities to learn and grow as an
+            engineer. By coding by convention, staying organized, and
+            establishing a standard by which to follow I am able to cultivate a
+            productive and successful environment. I'm excited to use my skills
+            to help make web applications relatable and easy to understand for
+            my peers and clients, and in turn, create products that improve the
+            lives of people like me.
+          </p>
+        </div>
       </MovingComponent>
-
-      <div className="about-icons">
-        <MovingComponent
-          type="fadeInFromRight"
-          duration="2000ms"
-          delay="0s"
-          direction="normal"
-          timing="ease"
-          iteration="1"
-          fillMode="none"
-        >
-          <a
-            href="https://www.linkedin.com/in/lauren-powers20/"
-            target="_blank"
-            className="about-me-icons"
-            rel="noreferrer"
+      <div className="about-icons-container">
+        <div className="about-icons">
+          <MovingComponent
+            type="fadeInFromRight"
+            duration="2000ms"
+            delay="0s"
+            direction="normal"
+            timing="ease"
+            iteration="1"
+            fillMode="none"
           >
-            <FaLinkedin alt="linkedin" />
-          </a>
+            <a
+              href="https://www.linkedin.com/in/lauren-powers20/"
+              target="_blank"
+              className="about-me-icons"
+              rel="noreferrer"
+            >
+              <FaLinkedin alt="linkedin" />
+            </a>
 
-          <a
-            href="https://github.com/laurenpowers20"
-            target="_blank"
-            alt="github"
-            className="about-me-icons"
-            rel="noreferrer"
-          >
-            <FaGithub alt="github" />
-          </a>
+            <a
+              href="https://github.com/laurenpowers20"
+              target="_blank"
+              alt="github"
+              className="about-me-icons"
+              rel="noreferrer"
+            >
+              <FaGithub alt="github" />
+            </a>
 
-          <a href="" className="about-me-icons" alt="resume file">
-            <FaFileAlt alt="resume" />
-          </a>
-        </MovingComponent>
+            <a href="" className="about-me-icons" alt="resume file">
+              <FaFileAlt alt="resume" />
+            </a>
+          </MovingComponent>
+        </div>
       </div>
     </>
   );
