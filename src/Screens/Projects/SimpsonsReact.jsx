@@ -20,6 +20,7 @@ function SimpsonsReact() {
             alt="simpsons project screen shot"
           />
         </div>
+
         <div className="project-description">
           <h1 className="project-heading">Simpsons Quote Generator</h1>
           <button className="button1">
