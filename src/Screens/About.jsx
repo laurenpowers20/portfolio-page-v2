@@ -1,6 +1,7 @@
 import "../App.css";
 import MovingComponent from "react-moving-text";
 import headshot from "../images/headshot.jpeg";
+import resume from "../images/resume.pdf";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFileAlt } from "react-icons/fa";
@@ -79,8 +80,13 @@ function About() {
             >
               <FaGithub alt="github" />
             </a>
-
-            <a href="" className="about-me-icons" alt="resume file">
+            <a
+              href={resume}
+              className="about-me-icons"
+              rel="noreferrer"
+              alt="resume file"
+              target="_blank"
+            >
               <FaFileAlt alt="resume" />
             </a>
           </MovingComponent>
