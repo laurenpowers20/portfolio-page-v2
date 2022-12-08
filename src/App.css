@@ -15,6 +15,7 @@ a {
   color: cyan;
   text-decoration: none;
 }
+
 a:hover{
   color: magenta;
 }
@@ -28,6 +29,7 @@ a:hover{
 .about-icons{
   display: inline-flex;
 }
+
 .about-icons-container{
   display: flex; 
   justify-content: center; 
@@ -37,14 +39,6 @@ a:hover{
 .about-me-icons {
   font-size: 90px;
   margin: 10px;
-}
-
-
-.headshot{
-  border-radius: 50%;
-  height: 180px;
-  align-items: center;
-  text-align: center;
 }
 
 .about-branding-statement-container{
@@ -60,6 +54,12 @@ a:hover{
   justify-content: center;
 }
 
+.headshot{
+  border-radius: 50%;
+  height: 180px;
+  align-items: center;
+  text-align: center;
+}
 
 .home-project-link{
   font-size: 40px;
@@ -89,8 +89,8 @@ a:hover{
 }
 
 .home-explore-work{
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .im-lauren{
@@ -115,12 +115,11 @@ margin: 0;
 }
 
 .page-heading{
-    font-family:  'Londrina Solid', cursive;
+    font-family: 'Londrina Solid', cursive;
 }
 
 .project-click-more-info {
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .contact-me{
@@ -143,8 +142,6 @@ margin: 0;
     text-align: center;
     width: 100%; ;
   }
-  
- 
 
   .about-branding-statement-container{
     width: 100%;
@@ -169,7 +166,6 @@ margin: 0;
     padding-right: 5px;
   }
 
- 
   .headshot{
     padding: 0;
     margin: 0;
