@@ -46,10 +46,10 @@ function SimpsonsReact() {
 
           <p className="project-description-text">
             For those of us who were raised by The Simpsons, here's a quote
-            generator to make you feel nostalgic! The user will enter sight and
-            a random Simpsons character will appear. User can click on "Get
-            Info!" to display a modal with the character name and a quote. All
-            quotes and images pulled from{" "}
+            generator to make you feel nostalgic! The user will enter site and a
+            random Simpsons character will appear. User can click on "Get Info!"
+            to display a modal with the character name and a quote. All quotes
+            and images pulled from{" "}
             <a
               href="https://thesimpsonsquoteapi.glitch.me/"
               targert="_blank"
