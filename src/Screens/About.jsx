@@ -85,11 +85,12 @@ function About() {
               everyday practice. My collaborative and determined approach
               enables me to see challenges as opportunities to learn and grow as
               an engineer. By coding by convention, staying organized, and
-              establishing a standard by which to follow I am able to cultivate
-              a productive and successful environment. I'm excited to use my
-              skills to help make web applications relatable and easy to
-              understand for my peers and clients, and in turn, create products
-              that improve the lives of people like me.
+              establishing standard processes to follow, I am able to pay it
+              forward and cultivate a productive environment that contributes to
+              the successful growth of others. I am excited to use my skills to
+              help make web applications relatable and easy to understand for my
+              peers and clients, and in turn, create products that improve the
+              lives of people like me.
             </p>
           </div>
         </MovingComponent>
