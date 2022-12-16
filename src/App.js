@@ -7,6 +7,7 @@ import Contact from "./Screens/Contact";
 import CountriesProject from "./Screens/Projects/CountriesProject";
 import TriviaProject from "./Screens/Projects/TriviaProject";
 import SimpsonsReact from "./Screens/Projects/SimpsonsReact";
+import BSideMusic from "./Screens/Projects/BSideMusic";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/countriesAPI" element={<CountriesProject />} />
         <Route path="/gameoftrivia" element={<TriviaProject />} />
         <Route path="/simpsonsquotes" element={<SimpsonsReact />} />
+        <Route path="/bside" element={<BSideMusic />} />
       </Routes>
     </>
   );

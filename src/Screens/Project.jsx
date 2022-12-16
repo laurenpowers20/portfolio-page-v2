@@ -1,6 +1,7 @@
 import earth from "../images/earth.gif";
 import trivia from "../images/trivia.png";
 import simpsons from "../images/simpsons.png";
+import bside from "../images/bside.png";
 import MovingComponent from "react-moving-text";
 import { Link } from "react-router-dom";
 import "../Screens/Projects/Projects.css";
@@ -32,6 +33,7 @@ function Projects() {
             </div>
           </Link>
         </MovingComponent>
+
         <MovingComponent
           type="slideInFromBottom"
           duration="1000ms"
@@ -64,6 +66,24 @@ function Projects() {
               <p className="project-description-title">
                 Simpsons Quote Generator
               </p>
+            </div>
+          </Link>
+        </MovingComponent>
+
+        <MovingComponent
+          type="slideInFromTop"
+          duration="1000ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none"
+        >
+          <Link to="/bside">
+            {" "}
+            <div className="projects-container">
+              <img src={bside} alt="worldmap" className="project-image" />
+              <p className="project-description-title">B-Side Music</p>
             </div>
           </Link>
         </MovingComponent>
