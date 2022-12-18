@@ -12,12 +12,12 @@ function BSideMusic() {
         <div className="project-descripton-images-container">
           <img
             src={bside1}
-            className="project-descripton-image"
+            className="project-descripton-image bside-image"
             alt="b-side music screen shot"
           />
           <img
             src={bside2}
-            className="project-descripton-image"
+            className="project-descripton-image bside-image"
             alt="b-side music screen shot"
           />
         </div>

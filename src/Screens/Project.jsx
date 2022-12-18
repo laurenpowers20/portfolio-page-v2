@@ -1,7 +1,7 @@
 import earth from "../images/earth.gif";
 import trivia from "../images/trivia.png";
 import simpsons from "../images/simpsons.png";
-import bside from "../images/bside.png";
+import bside from "../images/bside.jpg";
 import MovingComponent from "react-moving-text";
 import { Link } from "react-router-dom";
 import "../Screens/Projects/Projects.css";
