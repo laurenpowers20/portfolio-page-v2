@@ -29,7 +29,9 @@ a:hover{
 .about-icons{
   display: inline-flex;
 }
-
+.about-icon-info{
+  font-size: 10px;
+}
 .about-icons-container{
   display: flex; 
   justify-content: center; 

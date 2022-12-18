@@ -81,16 +81,15 @@ function About() {
             <p className="about-branding-statement">
               I am a Software Engineer with a passion to build and create. My 12
               years of experience in financial operations and leadership has
-              helped me turn problem solving and crisis management into an
-              everyday practice. My collaborative and determined approach
-              enables me to see challenges as opportunities to learn and grow as
-              an engineer. By staying organized and establishing standard
-              frameworks to follow, I am able to pay it forward and cultivate a
-              productive environment that contributes to the successful growth
-              of others. I am excited to use my skills to help make web
-              applications relatable and easy to understand for my peers and
-              clients, and in turn, create products that improve the lives of
-              people like me.
+              helped me turn problem-solving and crisis management into everyday
+              practice. My collaborative and determined approach enables me to
+              see challenges as opportunities to learn and grow as an engineer.
+              By staying organized, and establishing standard frameworks to
+              follow, I am able to pay it forward and cultivate a productive
+              environment that contributes to the successful growth of others. I
+              am excited to use my skills to help make web applications
+              relatable and easy to understand for my peers and clients, and in
+              turn, create products that improve the lives of people like me.
             </p>
           </div>
         </MovingComponent>
