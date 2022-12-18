@@ -45,7 +45,9 @@ function BSideMusic() {
             </a>
           </button>
           <p className="project-description-text">
-            Project description in the works.
+            B-Side Music is a database representing artists and musicians that
+            need to be heard! Find and search for artists of varying genres and
+            discover songs to add to your collections.
           </p>
           <p className="project-description-text">
             A full stack app written in Mongoose, Express, React, and Node.

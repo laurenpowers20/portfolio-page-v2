@@ -46,7 +46,7 @@ function TriviaProject() {
           </button>
           <p className="project-description-text">
             A multiple choice game of trivia. The user will select an answer out
-            of four choices. There are 10 questions, each are worth 10 points.
+            of four choices. There are 10 questions, each worth 10 points.
           </p>
           <p className="project-description-text">
             Written in HTML, CSS, and JavaScript.
