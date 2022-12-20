@@ -1,47 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&family=Poppins&display=swap");
 
-.list{
+.list {
   text-align: left;
 }
 
-.project-heading{
-  font-family: 'Londrina Solid', cursive;
+.project-heading {
+  font-family: "Londrina Solid", cursive;
   font-size: 60px;
 }
-.project-link{
+.project-link {
   color: black;
 }
 
-.project-link:hover{
-  color:black;
+.project-link:hover {
+  color: black;
 }
 
-.project-section{
+.project-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.projects-container{
- width: 200px;
- padding: 10px;
+.projects-container {
+  width: 200px;
+  padding: 10px;
 }
 
-.project-description{
+.project-description {
   text-align: left;
 }
 
-.project-descripton-image{
+.project-descripton-image {
   height: 400px;
   padding: 10px;
-
 }
 
- .project-main-div{
+.project-main-div {
   display: flex;
-} 
+}
 
-.project-descripton-images-container{
+.project-descripton-images-container {
   justify-content: left;
   display: flex;
 }
@@ -50,85 +49,80 @@
   width: 180px;
   border-radius: 50%;
   padding-top: 10px;
- 
 }
 
-.project-description-text{
-  font-family: 'Poppins', sans-serif;
+.project-description-text {
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
-  }
+}
 
-.project-description{
+.project-description {
   margin-left: 100px;
 }
 
 .project-description-title {
-  font-family: 'Londrina Solid', cursive;
+  font-family: "Londrina Solid", cursive;
   font-size: 30px;
 }
 
-.back-to-projects-button-div{
+.back-to-projects-button-div {
   padding: 40px;
 }
 .button1 {
-  display:inline-block;
-  padding:0.35em 1.2em;
-  border:0.1em solid #FFFFFF;
-  margin:0 0.3em 0.3em 0;
-  border-radius:0.50em;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.5em;
   box-sizing: border-box;
-  text-decoration:none;
+  text-decoration: none;
   color: black;
-  font-family:'Londrina Solid', cursive;
-  font-weight:300;
+  font-family: "Londrina Solid", cursive;
+  font-weight: 300;
   font-size: 20px;
-  text-align:center;
+  text-align: center;
   transition: all 0.2s;
   box-shadow: 10px 10px 5px -6px rgba(101, 100, 100, 0.75);
 }
 
-.button1:hover{
-  color:#000000;
-  background-color:magenta;
+.button1:hover {
+  color: #000000;
+  background-color: magenta;
 }
 
-.bside-image{
+.bside-image {
   border: 1px solid gray;
-  
 }
 
-
-
-@media only screen and (max-width: 600px) { 
-
-  .project-main-div{
+@media only screen and (max-width: 600px) {
+  .project-main-div {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
   }
 
-  .project-heading{
+  .project-heading {
     font-size: 30px;
   }
 
-  .project-description{
+  .project-description {
     margin-left: 0px;
     justify-content: center;
     text-align: center;
   }
-  
-  .project-description-image-container{
+
+  .project-description-image-container {
     margin: 0;
     padding: 0;
     justify-content: space-evenly;
   }
 
-  .project-descripton-image{
+  .project-descripton-image {
     height: 200px;
     padding: 5px;
   }
 
-  .project-description-text{
+  .project-description-text {
     font-size: 20px;
     margin-left: 0;
     padding-left: 0;
@@ -138,8 +132,23 @@
     font-size: 15px;
   }
 
-  .list{
+  .list {
     text-align: left;
   }
 
+  .project-image {
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .project-description-title {
+    font-size: 20px;
+  }
+
+  .projects-container {
+    padding: 0;
+    margin: 0;
+    width: 130px;
+  }
 }

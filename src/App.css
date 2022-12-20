@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&family=Poppins&display=swap");
 /* font-family: 'Londrina Outline', cursive;
 font-family: 'Londrina Shadow', cursive;
 font-family: 'Londrina Solid', cursive;
@@ -8,7 +8,7 @@ body {
   background-color: #000000;
   color: #00ffff;
   text-align: center;
-  font-family: 'Londrina Shadow', cursive;
+  font-family: "Londrina Shadow", cursive;
 }
 
 a {
@@ -16,25 +16,25 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: magenta;
 }
 
-.about-component{
+.about-component {
   text-align: center;
   display: flex;
   justify-content: center;
 }
 
-.about-icons{
+.about-icons {
   display: inline-flex;
 }
-.about-icon-info{
+.about-icon-info {
   font-size: 10px;
 }
-.about-icons-container{
-  display: flex; 
-  justify-content: center; 
+.about-icons-container {
+  display: flex;
+  justify-content: center;
   flex-direction: row;
 }
 
@@ -43,32 +43,32 @@ a:hover{
   margin: 10px;
 }
 
-.about-branding-statement-container{
+.about-branding-statement-container {
   margin-left: 200px;
   margin-right: 200px;
 }
 
-.about-branding-statement{
-  font-family: 'Poppins', sans-serif;
+.about-branding-statement {
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
-  text-align: left; 
+  text-align: left;
   margin: 10px;
   justify-content: center;
 }
 
-.headshot{
+.headshot {
   border-radius: 50%;
   height: 180px;
   align-items: center;
   text-align: center;
 }
 
-.home-project-link{
+.home-project-link {
   font-size: 40px;
   align-items: center;
 }
 
-.home-page-icons{
+.home-page-icons {
   margin: 10px;
   color: cyan;
   text-decoration: none;
@@ -83,19 +83,19 @@ a:hover{
   padding: 2px;
 }
 
-.home-page{
+.home-page {
   justify-content: center;
   align-items: center;
-  text-align: center; 
+  text-align: center;
   height: 100vh;
 }
 
-.home-explore-work{
+.home-explore-work {
   padding: 0;
   margin: 0;
 }
 
-.im-lauren{
+.im-lauren {
   font-size: 100px;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -116,50 +116,49 @@ a:hover{
   margin-left: 10px;
 }
 
-.page-heading{
-    font-family: 'Londrina Solid', cursive;
+.page-heading {
+  font-family: "Londrina Solid", cursive;
 }
 
 .project-click-more-info {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.contact-me{
-  font-family: 'Poppins', sans-serif;
+.contact-me {
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   text-align: center;
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) { 
-
-  .im-lauren{
+@media only screen and (max-width: 600px) {
+  .im-lauren {
     font-size: 60px;
     margin-bottom: 0;
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 0;
   }
-  .about-component{
+  .about-component {
     text-align: center;
-    width: 100%; ;
+    width: 100%;
   }
 
-  .about-branding-statement-container{
+  .about-branding-statement-container {
     width: 100%;
     margin-left: 1px;
     padding-right: 2px;
     margin-right: 1px;
   }
 
-  .about-branding-statement{
+  .about-branding-statement {
     font-size: 20px;
   }
 
-  .about-icons{
+  .about-icons {
     font-size: 10px;
   }
-  
+
   .software-enigneer-title {
     font-size: 40px;
     margin-top: 0;
@@ -168,16 +167,9 @@ a:hover{
     padding-right: 5px;
   }
 
-  .headshot{
+  .headshot {
     padding: 0;
     margin: 0;
   }
 
-  .project-image {
-    width: 150px;
-    border-radius: 50%;
-    padding: 10px;
-  }
 }
-
-
