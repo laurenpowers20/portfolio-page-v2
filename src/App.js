@@ -9,12 +9,17 @@ import TriviaProject from "./Screens/Projects/TriviaProject";
 import SimpsonsReact from "./Screens/Projects/SimpsonsReact";
 import BSideMusic from "./Screens/Projects/BSideMusic";
 import { Routes, Route } from "react-router-dom";
+import Hamburger from "./Components/Hamburger";
 
 function App() {
   return (
     <>
-      <Nav />
-
+      <div className="nav-bar-div">
+        <Nav />
+      </div>
+      <div className="hamburger-menu-div">
+        <Hamburger />
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
