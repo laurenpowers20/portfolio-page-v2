@@ -19,7 +19,7 @@ function CountriesProject() {
           <h1 className="project-heading">$hill Social Network</h1>
           <button className="button1">
             <a
-              href="https://github.com/laurenpowers20/shill-social"
+              href="https://github.com/SEI-Buffleheads/twitter-clone-frontend"
               target="_blank"
               rel="noreferrer"
               className="project-link"
@@ -39,8 +39,11 @@ function CountriesProject() {
           </button>
 
           <p className="project-description-text">
-          A social media network for those who want to share their financial goals, give advice, and discuss trends. Acted as SCRUM master collaborating with 10 developers to create a full-stack web application. Utilized GitHub Projects, Canva, and Figma to execute deadlines, wireframing, and team expectations.
-
+            A social media network for those who want to share their financial
+            goals, give advice, and discuss trends. Acted as SCRUM master
+            collaborating with 10 developers to create a full-stack web
+            application. Utilized GitHub Projects, Canva, and Figma to execute
+            deadlines, wireframing, and team expectations.
           </p>
           <p className="project-description-text">
             Built with React, TailwindCSS, Python, and Django
