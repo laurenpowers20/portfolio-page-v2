@@ -107,7 +107,8 @@ const ItemLink = styled(NavLink)`
   &:hover,
   &:active {
     background-position: 100%;
-    color: ${COLORS.primaryDark};
+    color: #FFFF00;
+   
     transform: translateX(1rem);
   }
 `;
