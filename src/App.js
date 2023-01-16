@@ -5,6 +5,7 @@ import About from "./Screens/About";
 import Project from "./Screens/Project";
 import Contact from "./Screens/Contact";
 import CountriesProject from "./Screens/Projects/CountriesProject";
+import Shill from "./Screens/Projects/Shill";
 import TriviaProject from "./Screens/Projects/TriviaProject";
 import SimpsonsReact from "./Screens/Projects/SimpsonsReact";
 import BSideMusic from "./Screens/Projects/BSideMusic";
@@ -28,6 +29,7 @@ function App() {
         <Route path="/countriesAPI" element={<CountriesProject />} />
         <Route path="/gameoftrivia" element={<TriviaProject />} />
         <Route path="/simpsonsquotes" element={<SimpsonsReact />} />
+        <Route path="/shill-social" element={<Shill />} />
         <Route path="/bside" element={<BSideMusic />} />
       </Routes>
     </>

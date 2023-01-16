@@ -120,6 +120,7 @@ textarea {
 
 .im-lauren {
   font-size: 100px;
+  font-family: "Londrina Solid", cursive;
   margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 5px;
@@ -132,6 +133,7 @@ textarea {
   padding-top: 0;
   padding-left: 5px;
   padding-right: 5px;
+  font-family: "Londrina Solid", cursive;
 }
 
 .page-heading {

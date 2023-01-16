@@ -2,6 +2,7 @@ import earth from "../images/earth.gif";
 import trivia from "../images/trivia.png";
 import simpsons from "../images/simpsons.png";
 import bside from "../images/bside.jpg";
+import shill from "../images/shill.png";
 import MovingComponent from "react-moving-text";
 import { Link } from "react-router-dom";
 import "../Screens/Projects/Projects.css";
@@ -47,6 +48,27 @@ function Projects() {
             <div className="projects-container">
               <img src={trivia} alt="trivia" className="project-image" />
               <p className="project-description-title">Game of Trivia</p>
+            </div>
+          </Link>
+        </MovingComponent>
+        <MovingComponent
+          type="slideInFromLeft"
+          duration="1000ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none"
+        >
+          <Link to="/shill-social">
+            {" "}
+            <div className="projects-container">
+              <img
+                src={shill}
+                alt="shill-social coin log"
+                className="project-image"
+              />
+              <p className="project-description-title">$hill Social Network</p>
             </div>
           </Link>
         </MovingComponent>
