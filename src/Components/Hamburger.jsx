@@ -91,7 +91,7 @@ const List = styled.ul`
 `;
 const ItemLink = styled(NavLink)`
   display: inline-block;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 300;
   text-decoration: none;
   color: ${COLORS.primaryLight};
@@ -107,8 +107,8 @@ const ItemLink = styled(NavLink)`
   &:hover,
   &:active {
     background-position: 100%;
-    color: #FFFF00;
-   
+    color: #ffff00;
+
     transform: translateX(1rem);
   }
 `;
