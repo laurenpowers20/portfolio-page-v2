@@ -2,6 +2,7 @@ import "../App.css";
 import MovingComponent from "react-moving-text";
 import headshot from "../images/headshot.jpeg";
 import resume from "../images/resume.pdf";
+// import Timeline from "../Components/Timeline";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFileAlt } from "react-icons/fa";
@@ -93,6 +94,9 @@ function About() {
             </p>
           </div>
         </MovingComponent>
+      </div>
+      <div>
+        {/* <Timeline /> */}
       </div>
     </>
   );

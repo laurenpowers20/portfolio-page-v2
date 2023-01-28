@@ -1,5 +1,6 @@
 import earth from "../images/earth.gif";
 import trivia from "../images/trivia.png";
+import react from "../images/react.jpg";
 import simpsons from "../images/simpsons.png";
 import bside from "../images/bside.jpg";
 import shill from "../images/shill.png";
@@ -15,6 +16,25 @@ function Projects() {
         Click image for more information
       </h2>
       <main className="project-section">
+        <MovingComponent
+          type="slideInFromTop"
+          duration="1000ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none"
+        >
+          <Link to="/reactportfolio">
+            {" "}
+            <div className="projects-container">
+              <img src={react} alt="react" className="project-image" />
+              <p className="project-description-title">
+                My Lil' React Portfolio
+              </p>
+            </div>
+          </Link>
+        </MovingComponent>
         <MovingComponent
           type="slideInFromLeft"
           duration="1000ms"

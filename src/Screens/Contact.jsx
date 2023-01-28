@@ -34,32 +34,7 @@ function Contact() {
         iteration="1"
         fillMode="none"
       >
-        {/* <form onSubmit={handleSubmit}>
-          <div>
-            <label for="email" className="contact-me">
-              {" "}
-            </label>
-            <input
-              className="contact-email"
-              type="email"
-              id="email"
-              placeholder="E-mail"
-              name="email"
-              value={form.email}
-              onChange={handleInputChange}
-            />
-          </div>
-          <div>
-            <label className="contact-me">
-              <textarea type="textarea" placeholder="Message" />
-            </label>
-          </div>
-
-          <label></label>
-          <button className="button1" type="submit">
-            Login
-          </button>
-        </form> */}
+        
         <p className="contact-me">
           {" "}
           Find me on{" "}
