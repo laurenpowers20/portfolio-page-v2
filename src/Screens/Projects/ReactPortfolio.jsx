@@ -44,19 +44,13 @@ function ReactPortfolio() {
           </button>
 
           <p className="project-description-text">
-            For those of us who were raised by The Simpsons, here's a quote
-            generator to make you feel nostalgic! The user will enter the site
-            and a random Simpsons character will appear. Users can click on "Get
-            Info!" to display a modal with the character name and a quote. All
-            quotes and images were pulled from{" "}
-            <a
-              href="https://thesimpsonsquoteapi.glitch.me/"
-              targert="_blank"
-              rel="noreferrer"
-            >
-              The Simpsons Quote API
-            </a>
-            .
+            Ever built an app in React and needed a quick feature that you've
+            done 100 times? Instead of digging around for that specific project
+            repository, I've compiled everything in one place for me AND you!
+            <p>
+              This lil' portfolio is a central place for the demos with some fun
+              styling.
+            </p>
           </p>
           <p className="project-description-text">Built with React.js</p>
         </div>
