@@ -29,7 +29,7 @@ function CountriesProject() {
           </button>
           <button className="button1">
             <a
-              href="https://shill-social-network.netlify.app/"
+              href="https://shill-social.netlify.app/"
               target="_blank"
               rel="noreferrer"
               className="project-link"
