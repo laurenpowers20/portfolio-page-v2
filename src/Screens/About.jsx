@@ -2,8 +2,6 @@ import "../App.css";
 import MovingComponent from "react-moving-text";
 import headshot from "../images/headshot.jpeg";
 import resume from "../images/resume.pdf";
-// import Timeline from "../Components/Timeline";
-// import Github from "../Components/Github";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFileAlt } from "react-icons/fa";
@@ -93,7 +91,6 @@ function About() {
               relatable and easy to understand for my peers and clients, and in
               turn, create products that improve the lives of people like me.
             </p>
-            <div className="github">{/* <Github /> */}</div>
           </div>
         </MovingComponent>
       </div>

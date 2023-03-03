@@ -209,4 +209,8 @@ textarea {
   .hamburger-menu-div {
     display: block;
   }
+
+  .contact-me {
+    font-size: 20px;
+  }
 }
