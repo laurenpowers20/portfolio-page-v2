@@ -17,6 +17,48 @@ font-family: 'Londrina Solid', cursive; */
   justify-content: center;
 }
 
+/* CSS */
+.button-74 {
+  font-family: "Londrina Solid", cursive;
+  background-color: cyan;
+  border: 2px solid magenta;
+  border-radius: 30px;
+  box-shadow: magenta 4px 4px 0 0;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 0 18px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: yellow;
+}
+
+.button-74:active {
+  box-shadow: magenta 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
 .navlink {
   margin: 5px;
   padding: 5px;
