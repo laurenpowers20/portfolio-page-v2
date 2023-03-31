@@ -3,11 +3,14 @@ import lightning from "../images/lightning(1).png";
 import MovingComponent from "react-moving-text";
 import { HiChevronDoubleRight } from "react-icons/hi2";
 import { NavLink } from "react-router-dom";
+import About from "./About";
+import Contact from "./Contact";
+import Project from "./Project";
 
 function Home() {
   return (
     <>
-      <div className="home-page">
+      <div className="home">
         <div className="im-lauren">
           <MovingComponent
             type="fadeInFromLeft"
@@ -18,11 +21,11 @@ function Home() {
             iteration="1"
             fillMode="none"
           >
-           <p>
+            <p>
               {" "}
               Hi, I'm Lauren Powers!{" "}
               <img className="lightning" src={lightning} alt="logo" />
-              </p>
+            </p>
           </MovingComponent>
         </div>
 
@@ -36,9 +39,7 @@ function Home() {
             iteration="1"
             fillMode="none"
           >
-            <div className="front-page-heading">
-              I'm a Software Engineer
-            </div>
+            <div className="front-page-heading">I'm a Software Engineer</div>
           </MovingComponent>
         </div>
 
@@ -52,11 +53,23 @@ function Home() {
             iteration="1"
             fillMode="none"
           >
-              <p>
-              <NavLink className="navlink" to="/projects"><HiChevronDoubleRight /><p className="home-explore-work">Explore work</p> </NavLink>
-              </p>
+            <p>
+              <NavLink className="navlink" to="/projects">
+                <HiChevronDoubleRight />
+                <p className="home-explore-work">Explore work</p>{" "}
+              </NavLink>
+            </p>
           </MovingComponent>
         </div>
+      </div>
+      <div id="projects">
+        <Project />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="contact">
+        <Contact />
       </div>
     </>
   );

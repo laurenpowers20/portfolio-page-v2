@@ -44,13 +44,10 @@ function ReactPortfolio() {
           </button>
 
           <p className="project-description-text">
-            Ever built an app in React and needed a quick feature that you've
-            done 100 times? Instead of digging around for that specific project
-            repository, I've compiled everything in one place for me AND you!
-            <p>
-              This lil' portfolio is a central place for the demos with some fun
-              styling.
-            </p>
+            Useful React component demos accompanied by the GitHub repositories.
+            A resource that developers can use to grab some quick code when
+            adding a simple component such as a photo gallery or light/dark
+            mode.
           </p>
           <p className="project-description-text">Built with React.js</p>
         </div>

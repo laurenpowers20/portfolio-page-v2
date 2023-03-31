@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 
 .list {
   text-align: left;
@@ -7,6 +8,7 @@
 .project-heading {
   font-family: "Londrina Solid", cursive;
   font-size: 60px;
+  justify-content: center;
 }
 .project-link {
   color: black;
@@ -20,6 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 
 .projects-container {
@@ -51,7 +54,7 @@
 }
 
 .project-description-text {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 25px;
 }
 

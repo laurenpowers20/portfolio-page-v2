@@ -3,83 +3,51 @@ import trivia from "../images/trivia.png";
 import react from "../images/react.jpg";
 import simpsons from "../images/simpsons.png";
 import bside from "../images/bside.jpg";
+import food from "../images/foodathome.png";
 import shill from "../images/shill.png";
-import MovingComponent from "react-moving-text";
 import { Link } from "react-router-dom";
 import "../Screens/Projects/Projects.css";
 
 function Projects() {
   return (
-    <>
+    <div className="project">
       <h1 className="page-heading">Projects</h1>
       <h2 className="project-click-more-info">
         Click image for more information
       </h2>
       <main className="project-section">
-        <MovingComponent
-          type="slideInFromTop"
-          duration="1000ms"
-          delay="0s"
-          direction="normal"
-          timing="ease"
-          iteration="1"
-          fillMode="none"
-        >
-          <Link to="/reactportfolio">
-            {" "}
-            <div className="projects-container">
-              <img src={react} alt="react" className="project-image" />
-              <p className="project-description-title">
-                My Lil' React Portfolio
-              </p>
-            </div>
-          </Link>
-        </MovingComponent>
-        <MovingComponent
-          type="slideInFromLeft"
-          duration="1000ms"
-          delay="0s"
-          direction="normal"
-          timing="ease"
-          iteration="1"
-          fillMode="none"
-        >
-          <Link to="/countriesAPI">
-            {" "}
-            <div className="projects-container">
-              <img src={earth} alt="worldmap" className="project-image" />
-              <p className="project-description-title">
-                Countries of The World API
-              </p>
-            </div>
-          </Link>
-        </MovingComponent>
+        <Link to="/foodathome">
+          <div className="projects-container">
+            <img src={food} alt="trivia" className="project-image" />
+            <p className="project-description-title">We Got Food at Home</p>
+          </div>
+        </Link>
 
-        <MovingComponent
-          type="slideInFromBottom"
-          duration="1000ms"
-          delay="0s"
-          direction="normal"
-          timing="ease"
-          iteration="1"
-          fillMode="none"
-        >
-          <Link to="/gameoftrivia">
-            <div className="projects-container">
-              <img src={trivia} alt="trivia" className="project-image" />
-              <p className="project-description-title">Game of Trivia</p>
-            </div>
-          </Link>
-        </MovingComponent>
-        <MovingComponent
-          type="slideInFromLeft"
-          duration="1000ms"
-          delay="0s"
-          direction="normal"
-          timing="ease"
-          iteration="1"
-          fillMode="none"
-        >
+        <Link to="/reactportfolio">
+          {" "}
+          <div className="projects-container">
+            <img src={react} alt="react" className="project-image" />
+            <p className="project-description-title">My React Portfolio</p>
+          </div>
+        </Link>
+
+        <Link to="/countriesAPI">
+          {" "}
+          <div className="projects-container">
+            <img src={earth} alt="worldmap" className="project-image" />
+            <p className="project-description-title">
+              Countries of The World API
+            </p>
+          </div>
+        </Link>
+
+        <Link to="/gameoftrivia">
+          <div className="projects-container">
+            <img src={trivia} alt="trivia" className="project-image" />
+            <p className="project-description-title">Game of Trivia</p>
+          </div>
+        </Link>
+        <div className="project-section">
           <Link to="/shill-social">
             {" "}
             <div className="projects-container">
@@ -91,17 +59,7 @@ function Projects() {
               <p className="project-description-title">$hill Social Network</p>
             </div>
           </Link>
-        </MovingComponent>
 
-        <MovingComponent
-          type="slideInFromRight"
-          duration="1000ms"
-          delay="0s"
-          direction="normal"
-          timing="ease"
-          iteration="1"
-          fillMode="none"
-        >
           <Link to="/simpsonsquotes">
             <div className="projects-container">
               <img src={simpsons} alt="worldmap" className="project-image" />
@@ -110,17 +68,7 @@ function Projects() {
               </p>
             </div>
           </Link>
-        </MovingComponent>
 
-        <MovingComponent
-          type="slideInFromTop"
-          duration="1000ms"
-          delay="0s"
-          direction="normal"
-          timing="ease"
-          iteration="1"
-          fillMode="none"
-        >
           <Link to="/bside">
             {" "}
             <div className="projects-container">
@@ -128,9 +76,9 @@ function Projects() {
               <p className="project-description-title">B-Side Music</p>
             </div>
           </Link>
-        </MovingComponent>
+        </div>
       </main>
-    </>
+    </div>
   );
 }
 

@@ -1,10 +1,6 @@
 import "../App.css";
 import MovingComponent from "react-moving-text";
-import headshot from "../images/headshot.jpeg";
-import resume from "../images/resume.pdf";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaFileAlt } from "react-icons/fa";
+import headshot from "../images/HeadShot.png";
 
 function About() {
   return (
@@ -37,35 +33,7 @@ function About() {
               timing="ease"
               iteration="1"
               fillMode="none"
-            >
-              <a
-                href="https://www.linkedin.com/in/lauren-powers20/"
-                target="_blank"
-                className="about-me-icons"
-                rel="noreferrer"
-              >
-                <FaLinkedin alt="linkedin" />
-              </a>
-
-              <a
-                href="https://github.com/laurenpowers20"
-                target="_blank"
-                alt="github"
-                className="about-me-icons"
-                rel="noreferrer"
-              >
-                <FaGithub alt="github" />
-              </a>
-              <a
-                href={resume}
-                className="about-me-icons"
-                rel="noreferrer"
-                alt="resume file"
-                target="_blank"
-              >
-                <FaFileAlt alt="resume" />
-              </a>
-            </MovingComponent>
+            ></MovingComponent>
           </div>
         </div>
         <MovingComponent
@@ -79,17 +47,40 @@ function About() {
         >
           <div className="about-branding-statement-container">
             <p className="about-branding-statement">
-              I am a Software Engineer with a passion to build and create. My 12
-              years of experience in financial operations and leadership has
-              helped me turn problem-solving and crisis management into everyday
-              practice. My collaborative and determined approach enables me to
-              see challenges as opportunities to learn and grow as an engineer.
-              By staying organized, and establishing standard frameworks to
-              follow, I am able to pay it forward and cultivate a productive
-              environment that contributes to the successful growth of others. I
-              am excited to use my skills to help make web applications
-              relatable and easy to understand for my peers and clients, and in
-              turn, create products that improve the lives of people like me.
+              Hi there! My name is Lauren and I am an engineer based in New York
+              City. My professional background lies in financial operations,
+              where I spent 12 years at JP Morgan Chase. During my tenure there,
+              I steadily progressed within the firm and eventually became the
+              manager of one of its largest branches in NYC. However, when my
+              time in banking came to an end, I saw an opportunity to pursue my
+              passion for building and hands-on work. I'm one of those rare
+              people who love putting Ikea furniture together and “figuring it
+              all out!” I was inspired by my friends who had completed Software
+              Engineering Immersive programs and were thriving in their roles.
+            </p>
+            <p className="about-branding-statement">
+              In the summer of 2022, I began teaching myself JavaScript and
+              coding simple projects. In September, I enrolled in General
+              Assembly's Software Engineering Immersive program, where I worked
+              on both front-end and back-end projects every week. Throughout
+              this journey, I've embraced challenges and pushed myself beyond my
+              comfort zone. It's been a wild ride, and I am confident in my
+              abilities and excited to continue learning and growing in my
+              career.
+            </p>
+            <p className="about-branding-statement">
+              {" "}
+              When I'm not coding, I can be found:
+              <ul>
+                <li>Hiking in the Hudson Valley</li>
+                <li>At the beach (in winter and summer!)</li>
+                <li>Traveling somewhere new </li>
+                <li>Scuba diving </li>
+                <li>
+                  Do something artistic (I've been into embroidery lately!)
+                </li>
+                <li>Cooking something new and delicious!</li>{" "}
+              </ul>
             </p>
           </div>
         </MovingComponent>

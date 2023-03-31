@@ -5,6 +5,7 @@ import About from "./Screens/About";
 import Project from "./Screens/Project";
 import Contact from "./Screens/Contact";
 import CountriesProject from "./Screens/Projects/CountriesProject";
+import FoodAtHome from "./Screens/Projects/FoodAtHome";
 import ReactPortfolio from "./Screens/Projects/ReactPortfolio";
 import Shill from "./Screens/Projects/Shill";
 import TriviaProject from "./Screens/Projects/TriviaProject";
@@ -30,6 +31,7 @@ function App() {
         <Route path="/countriesAPI" element={<CountriesProject />} />
         <Route path="/gameoftrivia" element={<TriviaProject />} />
         <Route path="/simpsonsquotes" element={<SimpsonsReact />} />
+        <Route path="/foodathome" element={<FoodAtHome />} />
         <Route path="/shill-social" element={<Shill />} />
         <Route path="/bside" element={<BSideMusic />} />
         <Route path="/reactportfolio" element={<ReactPortfolio />} />
